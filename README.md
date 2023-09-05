@@ -41,7 +41,7 @@ Created console password for IAM user 'myuser_2'.
 When the user/groups exist and the users have console password created:
 
 ```
-(base) ➜✗ python3 create_group_and_iam_users.py --username myuser --count 2 --group mygroup --password xoiudfkgjh --aws_access_key YOUR_ACCESS_KEY --aws_secret_key YOUR_SECRET_KEY
+(base) ➜✗ python3 create_group_and_iam_users.py --username myuser --count 2 --group mygroup --password YOUR_PASSWORD --aws_access_key YOUR_ACCESS_KEY --aws_secret_key YOUR_SECRET_KEY
 
 IAM group 'mygroup' already exists. Skipping group creation.
 
