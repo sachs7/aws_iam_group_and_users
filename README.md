@@ -16,7 +16,7 @@ python3 create_iam_user.py --username user --count 3
 AWS recommends first creating a User Group and then adding required permissions to it, then associating the user with that group.
 
 ```
-python3 create_group_and_iam_users.py --username myuser --count 2 --group mygroup --password xbauvgc --aws_access_key YOUR_ACCESS_KEY --aws_secret_key YOUR_SECRET_KEY
+python3 create_group_and_iam_users.py --username myuser --count 2 --group mygroup --password YOUR_PASSWORD --aws_access_key YOUR_ACCESS_KEY --aws_secret_key YOUR_SECRET_KEY
 ```
 
 **Example Runs:**
@@ -24,7 +24,7 @@ python3 create_group_and_iam_users.py --username myuser --count 2 --group mygrou
 When the user/groups exist but creating a new Console password:
 
 ```
-(base) ➜✗ python3 create_group_and_iam_users.py --username myuser --count 2 --group mygroup --password xboiugd --aws_access_key YOUR_ACCESS_KEY --aws_secret_key YOUR_SECRET_KEY
+(base) ➜✗ python3 create_group_and_iam_users.py --username myuser --count 2 --group mygroup --password YOUR_PASSWORD --aws_access_key YOUR_ACCESS_KEY --aws_secret_key YOUR_SECRET_KEY
 
 IAM group 'mygroup' already exists. Skipping group creation.
 
